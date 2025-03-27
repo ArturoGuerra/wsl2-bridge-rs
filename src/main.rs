@@ -38,16 +38,12 @@ enum Error {
 }
 
 #[tokio::main]
-async fn main() {
+async fn main() -> Result<(), Error> {
     let args = Args::parse();
 
     match args.mode {
-        Mode::Gpg { socket } => {
-            gpg_conn(socket).await.unwrap();
-        }
-        Mode::Ssh { pipe } => {
-            ssh_conn(&pipe).await.unwrap();
-        }
+        Mode::Gpg { socket } => gpg_conn(socket).await,
+        Mode::Ssh { pipe } => ssh_conn(&pipe).await,
     }
 }
 
