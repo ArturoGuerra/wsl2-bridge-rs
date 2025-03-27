@@ -86,10 +86,10 @@ async fn gpg_conn(socket_name: String) -> Result<(), Error> {
     let mut reader = async move || io::copy(&mut stdin, &mut stream_out).await;
     let mut writer = async move || io::copy(&mut stream_in, &mut stdout).await;
 
-    let (r1, r2) = tokio::join!(reader(), writer());
-
-    r1.unwrap();
-    r2.unwrap();
+    tokio::select! {
+        _ = reader() => {},
+        _ = writer() => {},
+    };
 
     Ok(())
 }
