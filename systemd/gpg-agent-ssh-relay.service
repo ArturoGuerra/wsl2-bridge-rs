@@ -1,0 +1,11 @@
+
+[Unit]
+Description=gpg4win to wsl2 ssh proxy 
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=socat UNIX-LISTEN:"%t/gnupg/S.gpg-agent.ssh,fork" EXEC:"/mnt/c/tools/wsl2-gpg-agent-relay.exe ssh --pipe //./pipe/openssh-ssh-agent"
+
+[Install]
+WantedBy=default.target

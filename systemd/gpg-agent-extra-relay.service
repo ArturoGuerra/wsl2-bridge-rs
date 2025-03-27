@@ -1,0 +1,10 @@
+[Unit]
+Description=gpg4win to wsl2 gpg proxy extra
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=socat UNIX-LISTEN:"%t/gnupg/S.gpg-agent.extra,fork" EXEC:"/mnt/c/tools/wsl2-gpg-agent-relay.exe gpg --socket S.gpg-agent.extra"
+
+[Install]
+WantedBy=default.target
