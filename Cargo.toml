@@ -4,8 +4,13 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+windows-sys = { version = "0.61.0", features = [
+    "Win32_Security",
+    "Win32_System",
+    "Win32_System_IO",
+    "Win32_Storage_FileSystem",
+] }
 clap = { version = "4.5.32", features = ["derive"] }
 home = "0.5.11"
 thiserror = "2.0.12"
 tokio = { version = "1.44.1", features = ["full"] }
-windows-sys = "0.59.0"
