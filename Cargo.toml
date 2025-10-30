@@ -1,5 +1,5 @@
 [package]
-name = "wsl2-gpg-agent-relay"
+name = "wsl2-bridge-rs"
 version = "0.1.0"
 edition = "2024"
 
