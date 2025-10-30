@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=socat UNIX-LISTEN:"%t/gnupg/S.gpg-agent,fork" EXEC:"/mnt/c/tools/wsl2-gpg-agent-relay.exe gpg --socket S.gpg-agent"
+ExecStart=socat UNIX-LISTEN:"%t/gnupg/S.gpg-agent,fork" EXEC:"/mnt/c/tools/wsl2-bridge-rs.exe gpg --socket S.gpg-agent"
 
 [Install]
 WantedBy=default.target
