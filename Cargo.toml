@@ -4,6 +4,9 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+tracing-appender = "0.2" # optional, for file logging
 windows-sys = { version = "0.61.0", features = [
     "Win32_Security",
     "Win32_System",

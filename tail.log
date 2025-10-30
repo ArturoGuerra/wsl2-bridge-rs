@@ -1,0 +1,451 @@
+[2m2025-10-30T01:09:28.696939Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:09:28.698512Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:09:28.698519Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:09:28.699245Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:09:28.699346Z[0m [32m INFO[0m stdin buffer [0, 0, 0, 240, 27, 0, 0, 0, 24, 115, 101, 115, 115, 105, 111, 110, 45, 98, 105, 110, 100, 64, 111, 112, 101, 110, 115, 115, 104, 46, 99, 111, 109, 0, 0, 0, 51, 0, 0, 0, 11, 115, 115, 104, 45, 101, 100, 50, 53, 53, 49, 57, 0, 0, 0, 32, 227, 42, 170, 121, 21, 206, 185, 180, 73, 209, 186, 80, 234, 42, 40, 187, 26, 110, 1, 249, 11, 218, 36, 90, 45, 29, 135, 105, 125, 24, 162, 101, 0, 0, 0, 64, 57, 122, 32, 163, 119, 11, 96, 218, 101, 55, 181, 173, 229, 53, 67, 70, 39, 85, 30, 115, 23, 78, 68, 50, 202, 83, 234, 201, 47, 77, 127, 154, 1, 35, 96, 202, 208, 193, 101, 97, 204, 181, 230, 174, 149, 43, 172, 221, 50, 140, 82, 22, 177, 203, 123, 43, 223, 89, 41, 22, 63, 30, 185, 169, 0, 0, 0, 83, 0, 0, 0, 11, 115, 115, 104, 45, 101, 100, 50, 53, 53, 49, 57, 0, 0, 0, 64, 27, 158, 62, 119, 213, 174, 227, 174, 209, 248, 116, 92, 178, 43, 59, 246, 88, 157, 194, 151, 69, 36, 100, 99, 176, 199, 55, 231, 76, 96, 117, 23, 62, 94, 109, 238, 75, 7, 166, 76, 194, 69, 161, 217, 226, 255, 70, 104, 242, 143, 92, 36, 150, 239, 159, 240, 195, 186, 46, 168, 78, 17, 180, 0, 0] byte count: 244
+[2m2025-10-30T01:09:35.359324Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:09:35.359501Z[0m [32m INFO[0m pipe buffer [0, 0, 0, 1, 6] byte count: 5
+[2m2025-10-30T01:12:11.880546Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:12:11.882517Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:12:11.882526Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:12:11.883150Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:12:11.883307Z[0m [32m INFO[0m stdin buffer [0, 0, 0, 240, 27, 0, 0, 0, 24, 115, 101, 115, 115, 105, 111, 110, 45, 98, 105, 110, 100, 64, 111, 112, 101, 110, 115, 115, 104, 46, 99, 111, 109, 0, 0, 0, 51, 0, 0, 0, 11, 115, 115, 104, 45, 101, 100, 50, 53, 53, 49, 57, 0, 0, 0, 32, 227, 42, 170, 121, 21, 206, 185, 180, 73, 209, 186, 80, 234, 42, 40, 187, 26, 110, 1, 249, 11, 218, 36, 90, 45, 29, 135, 105, 125, 24, 162, 101, 0, 0, 0, 64, 232, 106, 188, 168, 54, 110, 12, 70, 25, 245, 151, 50, 194, 254, 89, 190, 26, 3, 105, 140, 7, 158, 232, 25, 159, 210, 115, 147, 202, 153, 176, 24, 39, 212, 174, 40, 153, 148, 177, 126, 109, 16, 170, 23, 190, 154, 93, 31, 172, 103, 151, 148, 254, 172, 236, 41, 131, 235, 64, 207, 75, 194, 182, 164, 0, 0, 0, 83, 0, 0, 0, 11, 115, 115, 104, 45, 101, 100, 50, 53, 53, 49, 57, 0, 0, 0, 64, 126, 112, 64, 162, 245, 119, 18, 207, 112, 145, 255, 228, 78, 228, 145, 57, 90, 121, 142, 193, 77, 69, 249, 232, 13, 160, 136, 127, 54, 47, 188, 32, 40, 48, 112, 71, 13, 144, 30, 98, 190, 0, 43, 114, 133, 213, 124, 164, 43, 13, 125, 118, 69, 5, 132, 67, 64, 124, 55, 240, 89, 18, 10, 12, 0] byte count: 244
+[2m2025-10-30T01:12:21.161303Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:19:03.854592Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:19:03.856183Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:19:03.856191Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:19:03.857153Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:19:03.857253Z[0m [32m INFO[0m stdin buffer [0, 0, 0, 240, 27, 0, 0, 0, 24, 115, 101, 115, 115, 105, 111, 110, 45, 98, 105, 110, 100, 64, 111, 112, 101, 110, 115, 115, 104, 46, 99, 111, 109, 0, 0, 0, 51, 0, 0, 0, 11, 115, 115, 104, 45, 101, 100, 50, 53, 53, 49, 57, 0, 0, 0, 32, 227, 42, 170, 121, 21, 206, 185, 180, 73, 209, 186, 80, 234, 42, 40, 187, 26, 110, 1, 249, 11, 218, 36, 90, 45, 29, 135, 105, 125, 24, 162, 101, 0, 0, 0, 64, 34, 209, 19, 123, 85, 213, 204, 35, 222, 93, 229, 7, 59, 240, 115, 81, 213, 190, 244, 76, 194, 115, 221, 80, 24, 85, 254, 28, 170, 64, 214, 167, 187, 217, 240, 132, 61, 149, 253, 186, 209, 193, 252, 166, 111, 160, 184, 84, 56, 190, 102, 219, 253, 124, 191, 5, 25, 20, 81, 71, 40, 147, 13, 8, 0, 0, 0, 83, 0, 0, 0, 11, 115, 115, 104, 45, 101, 100, 50, 53, 53, 49, 57, 0, 0, 0, 64, 80, 180, 88, 143, 4, 8, 124, 149, 107, 166, 47, 219, 191, 108, 46, 223, 127, 150, 83, 213, 130, 78, 178, 81, 106, 73, 47, 62, 35, 131, 197, 113, 45, 252, 18, 142, 111, 222, 112, 72, 108, 101, 53, 127, 247, 30, 22, 132, 8, 241, 199, 61, 29, 217, 108, 113, 163, 24, 81, 125, 247, 203, 236, 11, 0] byte count: 244
+[2m2025-10-30T01:28:43.868739Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:28:43.870253Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:28:43.870259Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:28:43.870983Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:28:43.871085Z[0m [32m INFO[0m stdin buffer [0, 0, 0, 240, 27, 0, 0, 0, 24, 115, 101, 115, 115, 105, 111, 110, 45, 98, 105, 110, 100, 64, 111, 112, 101, 110, 115, 115, 104, 46, 99, 111, 109, 0, 0, 0, 51, 0, 0, 0, 11, 115, 115, 104, 45, 101, 100, 50, 53, 53, 49, 57, 0, 0, 0, 32, 227, 42, 170, 121, 21, 206, 185, 180, 73, 209, 186, 80, 234, 42, 40, 187, 26, 110, 1, 249, 11, 218, 36, 90, 45, 29, 135, 105, 125, 24, 162, 101, 0, 0, 0, 64, 255, 225, 22, 153, 67, 227, 78, 125, 47, 11, 132, 35, 72, 224, 235, 164, 184, 37, 185, 191, 74, 162, 75, 207, 218, 9, 171, 222, 135, 142, 50, 175, 154, 105, 219, 113, 42, 93, 103, 255, 60, 247, 196, 216, 163, 136, 36, 190, 228, 12, 145, 117, 90, 19, 56, 117, 250, 202, 22, 135, 233, 85, 162, 140, 0, 0, 0, 83, 0, 0, 0, 11, 115, 115, 104, 45, 101, 100, 50, 53, 53, 49, 57, 0, 0, 0, 64, 188, 106, 201, 146, 29, 77, 146, 1, 8, 203, 151, 43, 198, 73, 164, 181, 1, 139, 56, 197, 166, 50, 87, 189, 115, 179, 56, 131, 189, 71, 81, 76, 32, 177, 131, 245, 90, 113, 218, 102, 233, 207, 140, 122, 124, 133, 115, 43, 171, 221, 36, 11, 147, 225, 37, 107, 21, 135, 160, 50, 242, 99, 32, 6, 0] byte count: 244
+[2m2025-10-30T01:28:43.871424Z[0m [32m INFO[0m done writing data to pipe
+[2m2025-10-30T01:29:40.055060Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:29:40.056365Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:29:40.056373Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:29:40.056891Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:29:40.056937Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:29:40.056941Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:29:40.057311Z[0m [32m INFO[0m stdin buffer [0, 0, 0, 240, 27, 0, 0, 0, 24, 115, 101, 115, 115, 105, 111, 110, 45, 98, 105, 110, 100, 64, 111, 112, 101, 110, 115, 115, 104, 46, 99, 111, 109, 0, 0, 0, 51, 0, 0, 0, 11, 115, 115, 104, 45, 101, 100, 50, 53, 53, 49, 57, 0, 0, 0, 32, 227, 42, 170, 121, 21, 206, 185, 180, 73, 209, 186, 80, 234, 42, 40, 187, 26, 110, 1, 249, 11, 218, 36, 90, 45, 29, 135, 105, 125, 24, 162, 101, 0, 0, 0, 64, 126, 2, 237, 189, 76, 87, 1, 247, 201, 204, 41, 119, 13, 118, 147, 166, 171, 138, 31, 35, 109, 186, 127, 49, 221, 186, 84, 241, 64, 223, 125, 13, 199, 129, 110, 129, 68, 245, 15, 21, 196, 77, 21, 186, 207, 148, 49, 2, 66, 77, 244, 217, 238, 63, 134, 66, 212, 100, 115, 112, 8, 81, 74, 210, 0, 0, 0, 83, 0, 0, 0, 11, 115, 115, 104, 45, 101, 100, 50, 53, 53, 49, 57, 0, 0, 0, 64, 97, 152, 57, 128, 45, 46, 200, 182, 64, 97, 1, 136, 125, 174, 253, 156, 172, 70, 206, 16, 148, 25, 171, 11, 117, 7, 103, 215, 104, 128, 42, 151, 82, 15, 82, 147, 206, 187, 167, 214, 143, 208, 132, 99, 141, 149, 189, 79, 83, 151, 66, 233, 169, 196, 136, 86, 218, 178, 215, 30, 174, 120, 20, 12, 0] byte count: 244
+[2m2025-10-30T01:29:40.057630Z[0m [32m INFO[0m done writing data to pipe
+[2m2025-10-30T01:29:40.057633Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:30:15.776827Z[0m [32m INFO[0m pipe has zero bytes closing
+[2m2025-10-30T01:30:15.776841Z[0m [32m INFO[0m read zero probe broken pipe
+[2m2025-10-30T01:30:37.045417Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:30:37.046858Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:30:37.046865Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:30:37.047429Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:30:37.047472Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:30:37.047476Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:30:37.047865Z[0m [32m INFO[0m stdin buffer [0, 0, 0, 240, 27, 0, 0, 0, 24, 115, 101, 115, 115, 105, 111, 110, 45, 98, 105, 110, 100, 64, 111, 112, 101, 110, 115, 115, 104, 46, 99, 111, 109, 0, 0, 0, 51, 0, 0, 0, 11, 115, 115, 104, 45, 101, 100, 50, 53, 53, 49, 57, 0, 0, 0, 32, 227, 42, 170, 121, 21, 206, 185, 180, 73, 209, 186, 80, 234, 42, 40, 187, 26, 110, 1, 249, 11, 218, 36, 90, 45, 29, 135, 105, 125, 24, 162, 101, 0, 0, 0, 64, 207, 186, 171, 113, 170, 221, 203, 47, 175, 70, 199, 94, 84, 217, 79, 35, 241, 118, 82, 173, 204, 34, 133, 157, 144, 5, 112, 227, 254, 250, 91, 115, 235, 115, 104, 227, 174, 78, 72, 189, 190, 108, 127, 124, 34, 143, 241, 166, 103, 131, 35, 244, 133, 83, 122, 134, 146, 251, 250, 21, 164, 140, 84, 224, 0, 0, 0, 83, 0, 0, 0, 11, 115, 115, 104, 45, 101, 100, 50, 53, 53, 49, 57, 0, 0, 0, 64, 145, 27, 12, 67, 239, 58, 225, 61, 160, 87, 29, 34, 227, 3, 91, 79, 107, 247, 94, 237, 38, 151, 22, 157, 43, 122, 22, 246, 144, 114, 122, 17, 164, 71, 173, 85, 123, 152, 116, 3, 242, 219, 180, 82, 211, 250, 62, 231, 111, 123, 48, 203, 238, 171, 75, 199, 254, 80, 4, 0, 125, 129, 94, 7, 0] byte count: 244
+[2m2025-10-30T01:30:37.048184Z[0m [32m INFO[0m done writing data to pipe
+[2m2025-10-30T01:30:37.048187Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:49:49.397841Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:49:49.399678Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:49:49.399682Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:49:49.400012Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:49:49.400017Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:49:56.720727Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:49:56.722267Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:49:56.722274Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:49:56.722601Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:49:56.722606Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:49:57.017848Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:49:57.017864Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:49:57.017865Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:49:57.156660Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:49:57.156718Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:49:57.156720Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:49:57.156743Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:49:57.156745Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:49:57.156794Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:49:57.156797Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:49:57.156799Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:50:00.409930Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:50:00.409986Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:50:00.409988Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:50:00.410013Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:50:00.410014Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:50:00.764928Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:50:00.764943Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:50:00.764945Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:50:00.897206Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:50:00.897263Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:50:00.897265Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:50:00.897289Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:50:00.897291Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:50:00.897371Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:50:00.897375Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:50:00.897375Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:50:02.859807Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:50:02.859862Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:50:02.859865Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:50:02.859894Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:50:02.859896Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:50:03.202292Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:50:03.202313Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:50:03.202315Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:50:03.365413Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:50:03.365482Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:50:03.365484Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:50:03.365516Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:50:03.365518Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:50:03.365576Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:50:03.365580Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:50:03.365581Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:50:04.918838Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:50:04.918895Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:50:04.918897Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:50:04.918922Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:50:04.918923Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:50:05.200675Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:50:05.200692Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:50:05.200693Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:50:05.336701Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:50:05.336758Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:50:05.336760Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:50:05.336786Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:50:05.336788Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:50:05.336846Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:50:05.336850Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:50:05.336851Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:50:07.076396Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:50:07.076480Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:50:07.076483Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:50:07.076521Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:50:07.076523Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:50:07.393207Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:50:07.393219Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:50:07.393223Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:50:07.560032Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:50:07.560097Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:50:07.560100Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:50:07.560134Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:50:07.560136Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:50:07.560198Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:50:07.560202Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:50:07.560203Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:50:13.756263Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:50:13.756323Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:50:13.756325Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:50:13.756357Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:50:13.756358Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:50:14.095047Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:50:14.095061Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:50:14.095062Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:50:14.254577Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:50:14.254641Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:50:14.254643Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:50:14.254681Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:50:14.254683Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:50:14.254743Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:50:14.254747Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:50:14.254748Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:50:16.402880Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:50:16.402940Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:50:16.402942Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:50:16.402965Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:50:16.402967Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:50:16.688952Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:50:16.688970Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:50:16.688973Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:50:16.854371Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:50:16.854431Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:50:16.854433Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:50:16.854463Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:50:16.854465Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:50:16.854528Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:50:16.854531Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:50:16.854533Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:50:18.574022Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:50:18.574088Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:50:18.574090Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:50:18.574135Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:50:18.574137Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:50:18.924616Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:50:18.924632Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:50:18.924633Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:50:19.081846Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:50:19.081902Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:50:19.081903Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:50:19.081959Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:50:19.081960Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:50:19.082017Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:50:19.082021Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:50:19.082022Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:50:20.961446Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:50:20.961507Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:50:20.961509Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:50:20.961539Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:50:20.961541Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:50:21.292753Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:50:21.292773Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:50:21.292775Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:50:21.459668Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:50:21.459738Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:50:21.459740Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:50:21.459780Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:50:21.459782Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:50:21.459870Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:50:21.459874Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:50:21.459875Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:50:23.268750Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:50:23.268809Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:50:23.268811Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:50:23.268835Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:50:23.268837Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:50:23.545679Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:50:23.545693Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:50:23.545695Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:50:23.676393Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:50:23.676453Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:50:23.676455Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:50:23.676490Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:50:23.676497Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:50:23.676586Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:50:23.676590Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:50:23.676591Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:55:08.737742Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:55:08.737809Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:55:08.737811Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:55:08.737848Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:55:08.737850Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:55:09.155258Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:55:09.155275Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:55:09.155277Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:55:09.316349Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:55:09.316409Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:55:09.316411Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:55:09.316437Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:55:09.316439Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:55:09.316564Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:55:09.316568Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:55:09.316569Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:55:10.894514Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:55:10.894572Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:55:10.894574Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:55:10.894615Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:55:10.894617Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:55:11.182771Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:55:11.182786Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:55:11.182787Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:55:11.318512Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:55:11.318572Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:55:11.318574Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:55:11.318606Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:55:11.318608Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:55:11.318675Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:55:11.318679Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:55:11.318680Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:55:12.834467Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:55:12.834526Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:55:12.834529Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:55:12.834553Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:55:12.834555Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:55:13.065591Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:55:13.065605Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:55:13.065606Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:55:13.199571Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:55:13.199631Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:55:13.199633Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:55:13.199698Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:55:13.199700Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:55:13.199779Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:55:13.199783Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:55:13.199784Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:55:15.001818Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:55:15.001873Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:55:15.001875Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:55:15.001900Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:55:15.001901Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:55:15.290206Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:55:15.290225Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:55:15.290227Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:55:15.446568Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:55:15.446636Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:55:15.446638Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:55:15.446676Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:55:15.446677Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:55:15.446743Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:55:15.446746Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:55:15.446748Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:55:16.971076Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:55:16.971142Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:55:16.971144Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:55:16.971179Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:55:16.971181Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:55:17.216764Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:55:17.216783Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:55:17.216785Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:55:17.349442Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:55:17.349498Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:55:17.349500Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:55:17.349526Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:55:17.349528Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:55:17.349586Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:55:17.349590Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:55:17.349591Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:55:19.254533Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:55:19.254590Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:55:19.254592Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:55:19.254626Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:55:19.254627Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:55:19.599771Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:55:19.599790Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:55:19.599791Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:55:19.762677Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:55:19.762736Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:55:19.762738Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:55:19.762761Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:55:19.762768Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:55:19.762848Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:55:19.762852Z[0m [32m INFO[0m got zero bytes from stdin closing..
+[2m2025-10-30T01:55:19.762853Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:57:35.167719Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:57:35.168448Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:57:35.168454Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:57:35.169203Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:57:35.169209Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:57:35.462973Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:57:35.462994Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:57:35.595328Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:57:35.595381Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:57:35.595383Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:57:35.595412Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:57:35.595414Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:57:35.595488Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:57:35.595492Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:57:37.114991Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:57:37.115055Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:57:37.115058Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:57:37.115086Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:57:37.115088Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:57:37.337449Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:57:37.337463Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:57:37.465961Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:57:37.466015Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:57:37.466017Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:57:37.466043Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:57:37.466045Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:57:37.466136Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:57:37.466140Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:57:39.207071Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:57:39.207132Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:57:39.207135Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:57:39.207174Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:57:39.207176Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:57:39.497827Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:57:39.497842Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:57:39.655728Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:57:39.655784Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:57:39.655786Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:57:39.655836Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:57:39.655838Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:57:39.655892Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:57:39.655895Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:57:41.665446Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:57:41.665502Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:57:41.665504Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:57:41.665529Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:57:41.665531Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:57:42.005723Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:57:42.005742Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:57:42.166400Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:57:42.166476Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:57:42.166478Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:57:42.166512Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:57:42.166513Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:57:42.166587Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:57:42.166591Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:57:57.971835Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:57:57.971895Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:57:57.971898Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:57:57.971928Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:57:57.971930Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:57:58.320083Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:57:58.320103Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T01:57:58.449955Z[0m [32m INFO[0m starting ssh conn
+[2m2025-10-30T01:57:58.450011Z[0m [32m INFO[0m got client
+[2m2025-10-30T01:57:58.450013Z[0m [32m INFO[0m stdin to pipe
+[2m2025-10-30T01:57:58.450056Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T01:57:58.450058Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T01:57:58.450117Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T01:57:58.450121Z[0m [32m INFO[0m pipe writer shutdown
+[2m2025-10-30T02:01:08.909957Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T02:01:08.912180Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T02:01:08.912194Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T02:01:09.310754Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T02:01:09.463365Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T02:01:09.463447Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T02:01:09.463449Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T02:01:09.463496Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T02:01:11.763241Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T02:01:11.763334Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T02:01:11.763336Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T02:01:12.154244Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T02:01:12.309022Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T02:01:12.309100Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T02:01:12.309102Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T02:01:12.309158Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T02:01:14.133969Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T02:01:14.134051Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T02:01:14.134053Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T02:01:14.355850Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T02:01:14.479345Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T02:01:14.479422Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T02:01:14.479425Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T02:01:14.479487Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T03:26:55.682918Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:26:55.685177Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T03:26:55.685183Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T03:27:05.157055Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T03:27:05.299444Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:27:05.299555Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T03:27:05.299559Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T03:27:05.299625Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T03:27:08.962975Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:27:08.963084Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T03:27:08.963087Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T03:27:09.347748Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T03:27:09.488807Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:27:09.488893Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T03:27:09.488895Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T03:27:09.488983Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T03:27:11.087635Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:27:11.087791Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T03:27:11.087797Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T03:27:11.403486Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T03:27:11.535491Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:27:11.535585Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T03:27:11.535588Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T03:27:11.535652Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T03:27:13.151749Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:27:13.151835Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T03:27:13.151838Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T03:27:13.424323Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T03:27:13.566343Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:27:13.566454Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T03:27:13.566460Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T03:27:13.566546Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T03:27:15.095712Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:27:15.095813Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T03:27:15.095817Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T03:27:15.438380Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T03:27:15.572879Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:27:15.572954Z[0m [32m INFO[0m pipe to stdout
+[2m2025-10-30T03:27:15.572956Z[0m [32m INFO[0m reading data from pipe
+[2m2025-10-30T03:27:15.573034Z[0m [32m INFO[0m reading data from stdin
+[2m2025-10-30T03:53:43.680658Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:53:44.150769Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:53:45.768978Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:53:46.267516Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:53:47.699577Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:53:48.168429Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:59:18.119091Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:59:29.178451Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:59:32.426852Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:59:32.948076Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:59:34.542462Z[0m [32m INFO[0m starting ssh conn..
+[2m2025-10-30T03:59:35.055567Z[0m [32m INFO[0m starting ssh conn..
