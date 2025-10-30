@@ -5,7 +5,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=socat UNIX-LISTEN:"%t/ssh-agent.sock,fork" EXEC:"/mnt/c/tools/wsl2-bridge-rs.exe ssh --pipe //./pipe/openssh-ssh-agent"
+ExecStart=socat UNIX-LISTEN:"%t/ssh-agent.sock,fork" EXEC:"/mnt/c/tools/wsl2-bridge-rs.exe pipe --name //./pipe/openssh-ssh-agent"
 
 [Install]
 WantedBy=default.target
