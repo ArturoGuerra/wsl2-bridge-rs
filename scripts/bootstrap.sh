@@ -20,15 +20,23 @@ SCOPE="user"
 RAW_BASE="https://raw.githubusercontent.com/${REPO}/main/scripts"
 
 # When run via curl pipe, BASH_SOURCE[0] is unset or just "bash".
-# Detect this and fetch systemd-manage.sh from GitHub instead.
+# Detect this and fetch all needed files from GitHub into a temp tree.
 if [[ -n "${BASH_SOURCE[0]:-}" && "${BASH_SOURCE[0]}" != "bash" && -f "${BASH_SOURCE[0]}" ]]; then
   SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
   MANAGE_SCRIPT="${SCRIPT_DIR}/systemd-manage.sh"
+  CLEANUP_TMPDIR=""
 else
-  MANAGE_SCRIPT=$(mktemp)
-  trap 'rm -f "$MANAGE_SCRIPT"' EXIT
+  TMPDIR=$(mktemp -d)
+  trap 'rm -rf "$TMPDIR"' EXIT
+  mkdir -p "${TMPDIR}/scripts" "${TMPDIR}/systemd"
+  MANAGE_SCRIPT="${TMPDIR}/scripts/systemd-manage.sh"
   curl -fsSL "${RAW_BASE}/systemd-manage.sh" -o "$MANAGE_SCRIPT"
   chmod +x "$MANAGE_SCRIPT"
+  RAW_UNITS="https://raw.githubusercontent.com/${REPO}/main/systemd"
+  for unit in ssh-agent-relay.service gpg-agent-relay.service gpg-agent-extra-relay.service; do
+    curl -fsSL "${RAW_UNITS}/${unit}" -o "${TMPDIR}/systemd/${unit}"
+  done
+  CLEANUP_TMPDIR="$TMPDIR"
 fi
 
 err()  { echo "Error: $*" >&2; exit 1; }
