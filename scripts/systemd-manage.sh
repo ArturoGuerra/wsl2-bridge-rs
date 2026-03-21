@@ -3,14 +3,18 @@ set -euo pipefail
 
 usage() {
   cat <<'EOF'
-Usage: systemd-manage.sh <install|uninstall> [--scope user|system]
+Usage: systemd-manage.sh <install|uninstall> [--scope user|system] [--bin-path /path/to/wsl2-bridge-rs.exe]
 
 Install or uninstall the provided systemd user services either for the current
 user (default) or globally in /etc/systemd/user.
 
+The --bin-path option sets the path to the wsl2-bridge-rs.exe binary that will
+be written into the installed service files. Defaults to /mnt/c/tools/wsl2-bridge-rs.exe.
+
 Examples:
   systemd-manage.sh install
   systemd-manage.sh install --scope system
+  systemd-manage.sh install --bin-path /mnt/d/tools/wsl2-bridge-rs.exe
   systemd-manage.sh uninstall --scope user
 EOF
 }
@@ -39,6 +43,7 @@ fi
 
 ACTION=""
 SCOPE="user"
+BIN_PATH="/mnt/c/tools/wsl2-bridge-rs.exe"
 
 while [[ $# -gt 0 ]]; do
   case $1 in
@@ -53,6 +58,15 @@ while [[ $# -gt 0 ]]; do
       ;;
     --scope=*)
       SCOPE=${1#*=}
+      shift
+      ;;
+    --bin-path)
+      [[ $# -ge 2 ]] || err "Missing value for --bin-path"
+      BIN_PATH=$2
+      shift 2
+      ;;
+    --bin-path=*)
+      BIN_PATH=${1#*=}
       shift
       ;;
     -h|--help)
@@ -120,7 +134,8 @@ install_units() {
   for unit_path in "${UNITS[@]}"; do
     local unit_name
     unit_name=$(basename "${unit_path}")
-    install -Dm644 "${unit_path}" "${dest}/${unit_name}"
+    sed "s|@WSL2_BRIDGE_BIN@|${BIN_PATH}|g" "${unit_path}" \
+      | install -Dm644 /dev/stdin "${dest}/${unit_name}"
   done
 
   if [[ ${SCOPE} == user ]]; then

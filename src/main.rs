@@ -38,6 +38,9 @@ enum Error {
 
     #[error("Invalid number of bytes {0} expected 16 bytes")]
     InvalidNonce(usize),
+
+    #[error("Could not determine home directory")]
+    HomeDir,
 }
 
 #[tokio::main]
@@ -51,7 +54,8 @@ async fn main() -> Result<(), Error> {
 }
 
 async fn gpg_conn(socket_name: String) -> Result<(), Error> {
-    let socket_file_path = Path::new(home::home_dir().unwrap().to_str().unwrap())
+    let home = home::home_dir().ok_or(Error::HomeDir)?;
+    let socket_file_path = Path::new(home.to_str().ok_or(Error::HomeDir)?)
         .join("AppData")
         .join("Local")
         .join("gnupg")
@@ -66,7 +70,7 @@ async fn gpg_conn(socket_name: String) -> Result<(), Error> {
 
     buf.read_line(&mut port_buf).await.map_err(Error::IO)?;
     let n = buf.read(&mut nonce_buf).await.map_err(Error::IO)?;
-    if n > 16 {
+    if n != 16 {
         return Err(Error::InvalidNonce(n));
     }
 
@@ -76,7 +80,7 @@ async fn gpg_conn(socket_name: String) -> Result<(), Error> {
         .await
         .map_err(Error::IO)?;
 
-    stream.write(&nonce_buf).await.map_err(Error::IO)?;
+    stream.write_all(&nonce_buf).await.map_err(Error::IO)?;
 
     let (mut stream_in, mut stream_out) = stream.split();
     let mut stdin = io::stdin();
