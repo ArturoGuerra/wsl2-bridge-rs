@@ -17,8 +17,19 @@ REPO="ArturoGuerra/wsl2-bridge-rs"
 BIN_NAME="wsl2-bridge-rs.exe"
 BIN_DIR="/mnt/c/tools"
 SCOPE="user"
+RAW_BASE="https://raw.githubusercontent.com/${REPO}/main/scripts"
 
-SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
+# When run via curl pipe, BASH_SOURCE[0] is unset or just "bash".
+# Detect this and fetch systemd-manage.sh from GitHub instead.
+if [[ -n "${BASH_SOURCE[0]:-}" && "${BASH_SOURCE[0]}" != "bash" && -f "${BASH_SOURCE[0]}" ]]; then
+  SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
+  MANAGE_SCRIPT="${SCRIPT_DIR}/systemd-manage.sh"
+else
+  MANAGE_SCRIPT=$(mktemp)
+  trap 'rm -f "$MANAGE_SCRIPT"' EXIT
+  curl -fsSL "${RAW_BASE}/systemd-manage.sh" -o "$MANAGE_SCRIPT"
+  chmod +x "$MANAGE_SCRIPT"
+fi
 
 err()  { echo "Error: $*" >&2; exit 1; }
 step() { echo "==> $*"; }
@@ -36,7 +47,7 @@ while [[ $# -gt 0 ]]; do
     --scope=*)
       SCOPE=${1#*=}; shift ;;
     -h|--help)
-      sed -n '3,12p' "${BASH_SOURCE[0]}" | sed 's/^# \?//'
+      sed -n '3,14p' "$0" | sed 's/^# \?//' 2>/dev/null || echo "See script source for usage."
       exit 0 ;;
     *)
       err "Unknown argument: $1" ;;
@@ -66,7 +77,8 @@ step "Downloading $BIN_NAME to $BIN_DIR"
 
 mkdir -p "$BIN_DIR"
 curl -fsSL "$download_url" -o "${BIN_DIR}/${BIN_NAME}"
-chmod +x "${BIN_DIR}/${BIN_NAME}"
+chmod 755 "${BIN_DIR}/${BIN_NAME}"
+chown "$(id -u):$(id -g)" "${BIN_DIR}/${BIN_NAME}" 2>/dev/null || true
 
 echo "    Saved to ${BIN_DIR}/${BIN_NAME}"
 
@@ -75,7 +87,7 @@ echo "    Saved to ${BIN_DIR}/${BIN_NAME}"
 # ---------------------------------------------------------------------------
 step "Installing systemd services (scope: $SCOPE)"
 
-bash "${SCRIPT_DIR}/systemd-manage.sh" install \
+bash "$MANAGE_SCRIPT" install \
   --scope "$SCOPE" \
   --bin-path "${BIN_DIR}/${BIN_NAME}"
 
