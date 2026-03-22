@@ -60,7 +60,9 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
-command -v curl >/dev/null 2>&1 || err "curl is required but not found"
+for cmd in curl socat systemctl; do
+  command -v "$cmd" >/dev/null 2>&1 || err "'$cmd' is required but not found"
+done
 
 # ---------------------------------------------------------------------------
 # 1. Resolve latest release asset URL
