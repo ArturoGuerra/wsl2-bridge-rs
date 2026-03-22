@@ -26,17 +26,15 @@ if [[ -n "${BASH_SOURCE[0]:-}" && "${BASH_SOURCE[0]}" != "bash" && -f "${BASH_SO
   MANAGE_SCRIPT="${SCRIPT_DIR}/systemd-manage.sh"
   CLEANUP_TMPDIR=""
 else
-  TMPDIR=$(mktemp -d)
-  trap 'rm -rf "$TMPDIR"' EXIT
-  mkdir -p "${TMPDIR}/scripts" "${TMPDIR}/systemd"
-  MANAGE_SCRIPT="${TMPDIR}/scripts/systemd-manage.sh"
+  WORK_DIR=$(mktemp -d)
+  mkdir -p "${WORK_DIR}/scripts" "${WORK_DIR}/systemd"
+  MANAGE_SCRIPT="${WORK_DIR}/scripts/systemd-manage.sh"
   curl -fsSL "${RAW_BASE}/systemd-manage.sh" -o "$MANAGE_SCRIPT"
   chmod +x "$MANAGE_SCRIPT"
   RAW_UNITS="https://raw.githubusercontent.com/${REPO}/main/systemd"
   for unit in ssh-agent-relay.service gpg-agent-relay.service gpg-agent-extra-relay.service; do
-    curl -fsSL "${RAW_UNITS}/${unit}" -o "${TMPDIR}/systemd/${unit}"
+    curl -fsSL "${RAW_UNITS}/${unit}" -o "${WORK_DIR}/systemd/${unit}"
   done
-  CLEANUP_TMPDIR="$TMPDIR"
 fi
 
 err()  { echo "Error: $*" >&2; exit 1; }
@@ -83,17 +81,13 @@ echo "    Latest release: $tag"
 # ---------------------------------------------------------------------------
 step "Downloading $BIN_NAME to $BIN_DIR"
 
-if ! mkdir -p "$BIN_DIR" 2>/dev/null; then
-  echo "    Directory requires elevated privileges, prompting for sudo..."
-  sudo mkdir -p "$BIN_DIR"
-fi
-
-tmp_bin=$(mktemp)
-trap 'rm -f "$tmp_bin"' EXIT
+tmp_bin=$(mktemp /tmp/wsl2-bridge-rs.XXXXXX)
+trap 'rm -f "$tmp_bin"; rm -rf "${WORK_DIR:-}"' EXIT
 curl -fsSL "$download_url" -o "$tmp_bin"
 
-if ! install -m755 "$tmp_bin" "${BIN_DIR}/${BIN_NAME}" 2>/dev/null; then
-  echo "    Writing to $BIN_DIR requires elevated privileges, prompting for sudo..."
+if ! mkdir -p "$BIN_DIR" 2>/dev/null || ! install -m755 "$tmp_bin" "${BIN_DIR}/${BIN_NAME}" 2>/dev/null; then
+  echo "    Requires elevated privileges, prompting for sudo..."
+  sudo mkdir -p "$BIN_DIR"
   sudo install -m755 -o "$(id -u)" -g "$(id -g)" "$tmp_bin" "${BIN_DIR}/${BIN_NAME}"
 fi
 
