@@ -83,10 +83,19 @@ echo "    Latest release: $tag"
 # ---------------------------------------------------------------------------
 step "Downloading $BIN_NAME to $BIN_DIR"
 
-mkdir -p "$BIN_DIR"
-curl -fsSL "$download_url" -o "${BIN_DIR}/${BIN_NAME}"
-chmod 755 "${BIN_DIR}/${BIN_NAME}"
-chown "$(id -u):$(id -g)" "${BIN_DIR}/${BIN_NAME}" 2>/dev/null || true
+if ! mkdir -p "$BIN_DIR" 2>/dev/null; then
+  echo "    Directory requires elevated privileges, prompting for sudo..."
+  sudo mkdir -p "$BIN_DIR"
+fi
+
+tmp_bin=$(mktemp)
+trap 'rm -f "$tmp_bin"' EXIT
+curl -fsSL "$download_url" -o "$tmp_bin"
+
+if ! install -m755 "$tmp_bin" "${BIN_DIR}/${BIN_NAME}" 2>/dev/null; then
+  echo "    Writing to $BIN_DIR requires elevated privileges, prompting for sudo..."
+  sudo install -m755 -o "$(id -u)" -g "$(id -g)" "$tmp_bin" "${BIN_DIR}/${BIN_NAME}"
+fi
 
 echo "    Saved to ${BIN_DIR}/${BIN_NAME}"
 
